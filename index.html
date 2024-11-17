@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TalkBoard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>TalkBoard</h1>
+        <div id="search-bar-container">
+            <input type="text" id="search-bar" placeholder="サーバーを検索...">
+            <button id="search-btn">検索</button>
+        </div>
+        <div id="tag-filter">
+            <label for="tags">タグを選択:</label>
+            <div id="tags" class="multi-select"></div>
+        </div>
+        <div class="button-container">
+            <!-- サポートサーバー参加用ボタン -->
+            <a href="page.html" class="btn" target="_blank">サポートサーバーに参加</a>
+            
+            <!-- サーバー申請ページへのリンクボタン -->
+            <a href="help.html" class="btn">サーバー申請ページ</a>
+        </div>
+    </header>
+
+    <main id="server-list">
+        <!-- ここにサーバー一覧が表示される -->
+    </main>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
